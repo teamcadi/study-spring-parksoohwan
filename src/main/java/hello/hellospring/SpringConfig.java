@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class SpringConfig {
+
     @Bean
     MemberService memberService(){
         return new MemberService(memberRepository());
